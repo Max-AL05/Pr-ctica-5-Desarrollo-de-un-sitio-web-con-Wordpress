@@ -1,5 +1,5 @@
 
-# Tienda Virtual de Videojuegos
+# Videogame Store
 
 ## Descripción del Proyecto
 Este proyecto consiste en el desarrollo de una tienda en línea completamente funcional utilizando **WordPress** y **WooCommerce**, siguiendo el enfoque formativo del *Mega Curso de WordPress de Cero a Maestro*.  
@@ -18,7 +18,7 @@ El objetivo es aplicar competencias esenciales del desarrollo profesional con Wo
 La tienda está enfocada en la venta de videojuegos digitales y físicos, consolas y accesorios relacionados.  
 Características principales:
 - Categorías: Videojuegos para PC, PlayStation, Xbox, Nintendo.
-- Productos: Juegos, consolas, controles, tarjetas de regalo.
+- Productos: Juegos.
 - Identidad visual: Diseño moderno, imágenes de alta calidad, experiencia de usuario optimizada para gamers.
 
 ---
