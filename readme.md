@@ -2,24 +2,66 @@
 # Tienda Virtual de Videojuegos
 
 ## Descripción del Proyecto
-Proyecto educativo con **WordPress** y **WooCommerce**: instalación en local, diseño con **Gutenberg/FSE**, gestión de productos, pagos/envíos, seguridad y **SEO 2025**.
+Este proyecto consiste en el desarrollo de una tienda en línea completamente funcional utilizando **WordPress** y **WooCommerce**, siguiendo el enfoque formativo del *Mega Curso de WordPress de Cero a Maestro*.  
+El objetivo es aplicar competencias esenciales del desarrollo profesional con WordPress, incluyendo:
+
+- Instalación y configuración del entorno local.
+- Personalización visual mediante **Gutenberg** y **Full Site Editing (FSE)**.
+- Administración de contenido y estructura del sitio.
+- Configuración completa de **WooCommerce** (productos, inventarios, métodos de pago, envíos).
+- Implementación de medidas de seguridad y optimización SEO (Core Web Vitals, indexación, velocidad).
+
+---
 
 ## Tema Elegido
-Tienda enfocada en videojuegos digitales y físicos, consolas y accesorios.
-- Categorías: PC, PlayStation, Xbox, Nintendo
-- Productos: juegos, consolas, controles, tarjetas de regalo
+**Tienda Virtual de Videojuegos**  
+La tienda está enfocada en la venta de videojuegos digitales y físicos, consolas y accesorios relacionados.  
+Características principales:
+- Categorías: Videojuegos para PC, PlayStation, Xbox, Nintendo.
+- Productos: Juegos, consolas, controles, tarjetas de regalo.
+- Identidad visual: Diseño moderno, imágenes de alta calidad, experiencia de usuario optimizada para gamers.
+
+---
 
 ## Pasos para Ejecutar el Sitio en Local
-1. Instala LocalWP/XAMPP/Laragon.
-2. Crea el sitio WordPress (`tienda-videojuegos`) y accede a `/wp-admin`.
-3. Instala WooCommerce y configura moneda, impuestos, pagos y envío.
-4. Diseña con Gutenberg/FSE: páginas, plantillas y menú.
-5. Agrega productos con imágenes, precio, inventario, atributos y variantes.
-6. SEO y rendimiento: plugin SEO, optimización de imágenes, revisión Core Web Vitals.
-7. Seguridad: respaldos, control de usuarios, actualizaciones seguras.
-8. Accede en `http://localhost/tienda-videojuegos`.
+1. **Instalar un entorno local**  
+   Descarga e instala **LocalWP**, **XAMPP** o **Laragon** en tu equipo.
 
-## Requisitos
-- PHP ≥ 7.4, MySQL ≥ 5.7 (o MariaDB)
-- WordPress 6.x, WooCommerce 8.x
-- LocalWP, XAMPP o Laragon
+2. **Configurar WordPress**  
+   - Crea un nuevo sitio en tu entorno local.
+   - Define el nombre del proyecto (por ejemplo: `tienda-videojuegos`).
+   - Instala WordPress y accede al panel de administración.
+
+3. **Instalar y configurar WooCommerce**  
+   - Desde el panel de WordPress, ve a **Plugins > Añadir nuevo**.
+   - Busca **WooCommerce**, instálalo y actívalo.
+   - Configura los ajustes iniciales: moneda, impuestos, métodos de pago y envío.
+
+4. **Diseñar la interfaz**  
+   - Utiliza **Gutenberg** y **Full Site Editing** para crear páginas y plantillas.
+   - Configura el menú de navegación y la identidad visual.
+
+5. **Agregar productos**  
+   - Crea categorías (ej. PC, PlayStation, Xbox).
+   - Añade productos con imágenes, precios, atributos y variantes.
+
+6. **Optimización y seguridad**  
+   - Instala plugins para SEO (ej. Yoast SEO).
+   - Configura copias de seguridad y actualizaciones seguras.
+
+7. **Acceder al sitio**  
+   - Abre el navegador y visita la URL local (ej. `http://localhost/tienda-videojuegos`).
+
+---
+
+## Requisitos del Sistema
+- PHP 7.4 o superior
+- MySQL 5.7 o superior
+- WordPress 6.x
+- WooCommerce 8.x
+- Entorno local: LocalWP, XAMPP o Laragon
+
+---
+
+## 📄 Licencia
+Este proyecto se desarrolla con fines educativos y no está destinado para uso comercial.
