@@ -29,7 +29,7 @@ Características principales:
 
 2. **Configurar WordPress**  
    - Crea un nuevo sitio en tu entorno local.
-   - Define el nombre del proyecto (por ejemplo: `tienda-videojuegos`).
+   - Define el nombre del proyecto (por ejemplo: `videogamestore`).
    - Instala WordPress y accede al panel de administración.
 
 3. **Instalar y configurar WooCommerce**  
@@ -50,7 +50,7 @@ Características principales:
    - Configura copias de seguridad y actualizaciones seguras.
 
 7. **Acceder al sitio**  
-   - Abre el navegador y visita la URL local (ej. `http://localhost/tienda-videojuegos`).
+   - Abre el navegador y visita la URL local (ej. `http://localhost/videogamestore`).
 
 ---
 
