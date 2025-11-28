@@ -62,6 +62,3 @@ Características principales:
 - Entorno local: LocalWP, XAMPP o Laragon
 
 ---
-
-## 📄 Licencia
-Este proyecto se desarrolla con fines educativos y no está destinado para uso comercial.
