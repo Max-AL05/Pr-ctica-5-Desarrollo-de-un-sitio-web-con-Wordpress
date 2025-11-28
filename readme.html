@@ -1,0 +1,207 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Tienda Virtual de Videojuegos – README</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+    }
+    body {
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 2rem;
+      max-width: 920px;
+      margin-inline: auto;
+      background: Canvas;
+      color: CanvasText;
+    }
+    header, section {
+      margin-bottom: 2rem;
+    }
+    h1, h2, h3 {
+      line-height: 1.25;
+      margin: 0 0 .75rem 0;
+    }
+    code, pre {
+      background: color-mix(in oklab, Canvas, #000 6%);
+      border: 1px solid color-mix(in oklab, CanvasText, transparent 85%);
+      border-radius: 8px;
+      padding: .25rem .5rem;
+    }
+    pre {
+      padding: 1rem;
+      overflow: auto;
+    }
+    ul {
+      margin: .5rem 0 1rem 1.25rem;
+    }
+    .badge {
+      display: inline-block;
+      font-size: .85rem;
+      background: color-mix(in oklab, Canvas, #000 8%);
+      border: 1px solid color-mix(in oklab, CanvasText, transparent 85%);
+      border-radius: 999px;
+      padding: .25rem .6rem;
+      margin-right: .4rem;
+      margin-bottom: .4rem;
+    }
+    .hr {
+      height: 1px;
+      border: none;
+      background: color-mix(in oklab, CanvasText, transparent 90%);
+      margin: 1.5rem 0;
+    }
+    a {
+      color: #0b67d0;
+      text-decoration: none;
+    }
+    a:hover { text-decoration: underline; }
+    footer {
+      font-size: .9rem;
+      color: color-mix(in oklab, CanvasText, transparent 30%);
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Tienda Virtual de Videojuegos</h1>
+  <p>
+    Proyecto educativo desarrollado con WordPress y WooCommerce, siguiendo el enfoque formativo del
+    <em>Mega Curso de WordPress de Cero a Maestro</em>. Se aplican competencias de instalación,
+    personalización visual (Gutenberg y FSE), administración de contenido, configuración de e‑commerce,
+    seguridad y optimización SEO.
+  </p>
+  <div aria-label="Tecnologías" role="group">
+    <span class="badge">WordPress 6.x</span>
+    <span class="badge">WooCommerce 8.x</span>
+    <span class="badge">PHP ≥ 7.4</span>
+    <span class="badge">MySQL ≥ 5.7</span>
+    <span class="badge">Gutenberg</span>
+    <span class="badge">Full Site Editing</span>
+  </div>
+</header>
+
+<hr class="hr">
+
+<section id="descripcion">
+  <h2>Descripción del Proyecto</h2>
+  <p>
+    La tienda en línea se construye sobre WordPress con el plugin WooCommerce para ofrecer una solución
+    de comercio electrónico completa. El estudiante instala y configura el entorno local, diseña la interfaz
+    con Gutenberg y FSE, y prepara la operativa de la tienda (productos, inventario, impuestos, pagos y envíos).
+    Además, se integran prácticas de seguridad, mantenimiento y SEO 2025 (estructura semántica, velocidad,
+    Core Web Vitals, optimización de imágenes e indexación).
+  </p>
+  <ul>
+    <li>Instalación y configuración del entorno local.</li>
+    <li>Personalización visual con Gutenberg y Full Site Editing (FSE).</li>
+    <li>Administración del contenido y arquitectura de información.</li>
+    <li>Configuración integral de WooCommerce (productos, variantes, impuestos, pagos, envíos).</li>
+    <li>Seguridad, respaldos y actualización segura del sitio.</li>
+    <li>Optimización SEO orientada a Core Web Vitals y rendimiento.</li>
+  </ul>
+</section>
+
+<section id="tema">
+  <h2>Tema Elegido</h2>
+  <p><strong>Tienda Virtual de Videojuegos</strong></p>
+  <p>
+    Enfocada en la venta de videojuegos digitales y físicos, consolas y accesorios relacionados.
+    La identidad visual utiliza un diseño moderno orientado a la comunidad gamer, con imágenes de alta
+    calidad y una experiencia de usuario optimizada.
+  </p>
+  <ul>
+    <li><strong>Categorías</strong>: PC, PlayStation, Xbox, Nintendo.</li>
+    <li><strong>Productos</strong>: juegos, consolas, controles, tarjetas de regalo, accesorios.</li>
+    <li><strong>UX/UI</strong>: navegación clara, búsqueda por plataforma, filtros por género y precio.</li>
+  </ul>
+</section>
+
+<section id="ejecucion-local">
+  <h2>Pasos para Ejecutar el Sitio en Local</h2>
+  <ol>
+    <li>
+      <strong>Instalar un entorno local</strong><br>
+      Descarga e instala <a href="https://localwp.com/" target="_blank" rel="noopenerends.org/index.htmlXAMPP</a> o
+      <a href="https://larLaragon</a> en tu equipo.
+    </li>
+    <li>
+      <strong>Crear y configurar el sitio WordPress</strong><br>
+      Crea un nuevo sitio (por ejemplo: <code>tienda-videojuegos</code>), define credenciales de administrador,
+      completa la instalación y accede al panel (<code>/wp-admin</code>).
+    </li>
+    <li>
+      <strong>Instalar y configurar WooCommerce</strong><br>
+      En <em>Plugins &gt; Añadir nuevo</em>, instala y activa WooCommerce.
+      Ejecuta el asistente: moneda, impuestos, métodos de pago (ej. Stripe/PayPal), zonas y tarifas de envío.
+    </li>
+    <li>
+      <strong>Diseño con Gutenberg y FSE</strong><br>
+      Crea páginas principales (Inicio, Tienda, Categorías, Contacto), patrones personalizados,
+      plantillas (cabecera, pie) y un menú de navegación alineado con el objetivo comercial.
+    </li>
+    <li>
+      <strong>Alta de productos</strong><br>
+      Define categorías (PC, PlayStation, Xbox, Nintendo). Añade productos con imagen destacada,
+      galería, precio, inventario, atributos (plataforma, idioma) y variantes (ediciones).
+    </li>
+    <li>
+      <strong>SEO y rendimiento</strong><br>
+      Instala un plugin SEO (por ejemplo, Yoast/Rank Math), optimiza imágenes (formato moderno, lazy‑load),
+      revisa Core Web Vitals, habilita caché y limpia recursos innecesarios.
+    </li>
+    <li>
+      <strong>Seguridad y mantenimiento</strong><br>
+      Configura copias de seguridad periódicas, control de usuarios y políticas de actualización segura
+      para temas y plugins.
+    </li>
+    <li>
+      <strong>Acceder al sitio</strong><br>
+      Abre el navegador y visita la URL local, por ejemplo:
+      <code>http://localhost/tienda-videojuegos</code> (o la que genere tu entorno).
+    </li>
+  </ol>
+</section>
+
+<section id="requisitos">
+  <h2>Requisitos del Sistema</h2>
+  <ul>
+    <li>PHP 7.4 o superior</li>
+    <li>MySQL 5.7 o superior (o MariaDB equivalente)</li>
+    <li>WordPress 6.x</li>
+    <li>WooCommerce 8.x</li>
+    <li>Entorno local: LocalWP, XAMPP o Laragon</li>
+  </ul>
+</section>
+
+<section id="estructura-sugerida">
+  <h2>Estructura Sugerida del Proyecto</h2>
+  <pre><code>.
+├─ README.html
+├─ /wp-content
+│  ├─ /themes
+│  ├─ /plugins
+│  └─ /uploads
+└─ /backups
+</code></pre>
+</section>
+
+<section id="licencia">
+  <h2>Licencia</h2>
+  <p>
+    Este proyecto se desarrolla con fines educativos y no está destinado para uso comercial.
+  </p>
+</section>
+
+<footer>
+  <p>
+    Autor: Maximiliano Aranda León — Puebla, PUEBLA.
+  </p>
+</footer>
+
+</body>
